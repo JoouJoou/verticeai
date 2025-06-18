@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-satoshi: "Satoshi-Regular", "sans-serif";
+  --font-satoshibold: "Satoshi-Bold", "sans-serif";
+  --color-vertice-blue: #000bde;
+  --color-vertice-white: #d4e4f4;
+  --shadow-footer: 0 0 35px rgba(0, 0, 0, 1);
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
